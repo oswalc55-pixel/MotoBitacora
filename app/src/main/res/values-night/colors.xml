@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primario">#FFAB91</color>
+    <color name="primario_oscuro">#BF360C</color>
+    <color name="sobre_primario">#000000</color>
+    <color name="secundario">#FFCA28</color>
+    <color name="sobre_secundario">#000000</color>
+</resources>

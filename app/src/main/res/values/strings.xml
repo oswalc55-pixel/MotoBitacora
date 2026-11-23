@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MotoBitácora</string>
+
+    <!-- Login -->
+    <string name="login_subtitulo">Bitácora de mantenimiento y gastos de tu moto</string>
+    <string name="login_descripcion_icono">Icono de huella digital</string>
+    <string name="login_boton">Iniciar sesión con huella</string>
+    <string name="login_configurar">Registrar una huella en Ajustes</string>
+    <string name="login_prompt_titulo">Acceso a MotoBitácora</string>
+    <string name="login_prompt_subtitulo">Coloca tu dedo en el sensor de huella</string>
+    <string name="login_prompt_cancelar">Cancelar</string>
+    <string name="login_mensaje_inicial">Autentícate con tu huella para ver tu bitácora.</string>
+    <string name="login_sin_sensor">Este dispositivo no tiene sensor de huella, por lo que no es posible iniciar sesión.</string>
+    <string name="login_sensor_no_disponible">El sensor de huella no está disponible por el momento. Inténtalo más tarde.</string>
+    <string name="login_sin_huella">No hay huellas registradas. Registra una en los ajustes del dispositivo y vuelve a intentarlo.</string>
+    <string name="login_no_reconocida">Huella no reconocida. Intenta de nuevo.</string>
+    <string name="login_cancelada">Autenticación cancelada. Toca el botón para intentarlo otra vez.</string>
+    <string name="login_bloqueo_temporal">Demasiados intentos fallidos. Espera %1$d segundos para volver a intentarlo.</string>
+    <string name="login_bloqueo_permanente">Sensor bloqueado por demasiados intentos. Desbloquea el teléfono con tu PIN, patrón o contraseña y vuelve a intentarlo.</string>
+    <string name="login_error_generico">No se pudo autenticar: %1$s</string>
+    <string name="login_no_soportado">Este dispositivo no admite la autenticación por huella requerida por la app.</string>
+
+    <!-- Títulos de pantallas -->
+    <string name="titulo_historial">Historial</string>
+    <string name="titulo_formulario">Registro</string>
+    <string name="titulo_resumen">Resumen</string>
+    <string name="titulo_moto">Datos de mi moto</string>
+
+    <!-- Menú -->
+    <string name="menu_resumen">Resumen</string>
+    <string name="menu_moto">Datos de mi moto</string>
+    <string name="menu_tema">Cambiar tema claro/oscuro</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <!-- Diálogos -->
+    <string name="cerrar_sesion_titulo">Cerrar sesión</string>
+    <string name="cerrar_sesion_mensaje">Tendrás que usar tu huella para volver a entrar.</string>
+    <string name="eliminar_titulo">Eliminar registro</string>
+    <string name="eliminar_mensaje">¿Seguro que quieres eliminar \"%1$s\"? Esta acción no se puede deshacer.</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminar">Eliminar</string>
+
+    <!-- Historial -->
+    <string name="historial_vacio">Aún no hay registros.\nToca el botón + para agregar el primero.</string>
+    <string name="historial_sin_resultados">No se encontraron registros con ese filtro.</string>
+    <string name="agregar_registro">Agregar registro</string>
+    <string name="detalle_registro">%1$s  •  %2$s km</string>
+    <string name="registro_eliminado">Registro eliminado</string>
+    <string name="hint_buscar">Buscar por descripción</string>
+    <string name="chip_todos">Todos</string>
+
+    <!-- Formulario -->
+    <string name="hint_tipo">Tipo</string>
+    <string name="hint_fecha">Fecha</string>
+    <string name="hint_km">Kilometraje (km)</string>
+    <string name="hint_costo">Costo ($)</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="guardar">Guardar</string>
+    <string name="registro_guardado">Registro guardado</string>
+    <string name="registro_no_encontrado">No se encontró el registro</string>
+    <string name="error_tipo">Elige un tipo de la lista</string>
+    <string name="error_fecha">Elige una fecha</string>
+    <string name="error_descripcion">Escribe una descripción de al menos 3 letras</string>
+    <string name="error_km">Escribe un kilometraje válido (0 a 999,999)</string>
+    <string name="error_costo">Escribe un costo válido (0 a 999,999.99)</string>
+
+    <string-array name="tipos_registro">
+        <item>Servicio</item>
+        <item>Combustible</item>
+        <item>Pieza</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!-- Datos de la moto -->
+    <string name="hint_nombre_moto">Nombre o modelo de tu moto</string>
+    <string name="hint_intervalo">Intervalo de servicio (km)</string>
+    <string name="ayuda_intervalo">Cada cuántos km te toca servicio. Ejemplo: 3000</string>
+    <string name="moto_recordatorios">Recordarme el próximo servicio</string>
+    <string name="moto_recordatorios_ayuda">Te avisa cuando falten 300 km o menos. Se revisa cada vez que guardas un registro.</string>
+    <string name="error_nombre_moto">Escribe al menos 2 letras</string>
+    <string name="error_intervalo">Escribe un intervalo válido (100 a 50,000 km)</string>
+    <string name="moto_guardada">Datos guardados</string>
+    <string name="permiso_notificaciones_denegado">Sin el permiso de notificaciones no se pueden enviar recordatorios</string>
+
+    <!-- Notificación -->
+    <string name="notif_canal_nombre">Recordatorios de servicio</string>
+    <string name="notif_canal_descripcion">Avisos cuando se acerca el próximo servicio de tu moto</string>
+    <string name="notif_titulo">Recordatorio de servicio</string>
+    <string name="notif_cerca">Faltan %1$s km para tu próximo servicio (a los %2$s km).</string>
+    <string name="notif_vencido">Tu servicio está vencido por %1$s km. Es hora de revisarlo.</string>
+
+    <!-- Resumen -->
+    <string name="resumen_titulo_general">Datos generales</string>
+    <string name="resumen_titulo_tipo">Gasto por tipo</string>
+    <string name="resumen_moto">Moto: %1$s</string>
+    <string name="resumen_moto_sin_datos">Moto: sin datos (menú &gt; Datos de mi moto)</string>
+    <string name="resumen_total_registros">Registros: %1$d</string>
+    <string name="resumen_gasto_total">Gasto total: %1$s</string>
+    <string name="resumen_km_actual">Kilometraje actual: %1$s km</string>
+    <string name="resumen_km_recorridos">Kilómetros recorridos: %1$s km</string>
+    <string name="resumen_ultimo_servicio">Último servicio: %1$s, a los %2$s km</string>
+    <string name="resumen_sin_servicio">Último servicio: sin servicios registrados</string>
+    <string name="resumen_proximo">Próximo servicio: a los %1$s km (faltan %2$s km)</string>
+    <string name="resumen_proximo_vencido">Próximo servicio: vencido por %1$s km</string>
+    <string name="resumen_proximo_sin_intervalo">Próximo servicio: configura el intervalo en Datos de mi moto</string>
+    <string name="resumen_proximo_sin_servicio">Próximo servicio: registra un servicio para calcularlo</string>
+    <string name="resumen_por_tipo_linea">%1$s: %2$s</string>
+</resources>
